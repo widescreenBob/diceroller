@@ -55,7 +55,7 @@ var showYourRoll = function showYourRoll() {
   // We need to actively clear this as well.
   localStorage.clear();
   if(resultsArray.length <= 0){
-    showLastRoll.classList.toggle('js-hide');
+    showLastRoll.classList.add('js-hide');
   }
 };
 
