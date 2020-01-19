@@ -1,5 +1,5 @@
 "use strict";
-console.log("hesrse");
+
 var die = document.getElementsByClassName('die-type');
 var currentDie = document.getElementById('current-die');
 var currentResult = document.getElementById('current-result');
@@ -37,7 +37,6 @@ var addDieType = function addDieType() {
     showLastRoll.classList.remove('rolled-one');
   }
   resultsArray.push([currentDieValue, result]);
-  console.log(resultsArray);
   populateResults();
   if (resultsArray.length >= 1) {
     showLastRoll.classList.remove('js-hide');
